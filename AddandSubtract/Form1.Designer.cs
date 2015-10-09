@@ -35,28 +35,35 @@
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.DeepPink;
+            this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdd.Location = new System.Drawing.Point(57, 190);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(151, 132);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonSubtract
             // 
+            this.buttonSubtract.BackColor = System.Drawing.Color.DarkViolet;
+            this.buttonSubtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSubtract.Location = new System.Drawing.Point(255, 190);
             this.buttonSubtract.Name = "buttonSubtract";
             this.buttonSubtract.Size = new System.Drawing.Size(146, 132);
             this.buttonSubtract.TabIndex = 1;
             this.buttonSubtract.Text = "Subtract";
-            this.buttonSubtract.UseVisualStyleBackColor = true;
+            this.buttonSubtract.UseVisualStyleBackColor = false;
+            this.buttonSubtract.Click += new System.EventHandler(this.buttonSubtract_Click);
             // 
             // labelSum
             // 
             this.labelSum.AutoSize = true;
-            this.labelSum.Location = new System.Drawing.Point(207, 72);
+            this.labelSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSum.Location = new System.Drawing.Point(189, 70);
             this.labelSum.Name = "labelSum";
-            this.labelSum.Size = new System.Drawing.Size(42, 20);
+            this.labelSum.Size = new System.Drawing.Size(94, 40);
             this.labelSum.TabIndex = 2;
             this.labelSum.Text = "Sum";
             // 
